@@ -1,0 +1,12 @@
+---
+spring:
+  application:
+    name: ActuatorService
+    
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+    
+server:
+  port: 9001
